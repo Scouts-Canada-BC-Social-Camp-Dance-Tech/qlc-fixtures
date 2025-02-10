@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4</Version>
+  <Author>Robbie Munro</Author>
+ </Creator>
+ <Manufacturer>Orion Effects Lighting</Manufacturer>
+ <Model>Polaris 2</Model>
+ <Type>Effect</Type>
+ <Channel Name="Control mode">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="9">Black-out</Capability>
+  <Capability Min="10" Max="39">Auto-play 1 (6 color LED)</Capability>
+  <Capability Min="40" Max="69">Auto-play 2 (White LED)</Capability>
+  <Capability Min="70" Max="99">Auto-play 3 (Laser)</Capability>
+  <Capability Min="100" Max="129">Auto-play 4 (Mixing)</Capability>
+  <Capability Min="130" Max="159">Sound control 1 (6 color LED)</Capability>
+  <Capability Min="160" Max="189">Sound control 2 (White LED)</Capability>
+  <Capability Min="190" Max="219">Sound control 3 (Laser)</Capability>
+  <Capability Min="220" Max="249">Sound control 4 (Mixing)</Capability>
+  <Capability Min="250" Max="255">DMX control</Capability>
+ </Channel>
+ <Channel Name="RGBWAv control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="9">Blackout</Capability>
+  <Capability Min="10" Max="12" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+  <Capability Min="13" Max="15" Preset="ColorMacro" Res1="#00ff00">Green</Capability>
+  <Capability Min="16" Max="18" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
+  <Capability Min="19" Max="21" Preset="ColorMacro" Res1="#ffffff">White</Capability>
+  <Capability Min="22" Max="24" Preset="ColorMacro" Res1="#ff7800">Amber</Capability>
+  <Capability Min="25" Max="27" Preset="ColorMacro" Res1="#9141ac">Violet</Capability>
+  <Capability Min="28" Max="30" Preset="ColorDoubleMacro" Res1="#ff0000" Res2="#00ff00">Red+Green</Capability>
+  <Capability Min="31" Max="33" Preset="ColorDoubleMacro" Res1="#ff0000" Res2="#0000ff">Red+Blue</Capability>
+  <Capability Min="34" Max="36" Preset="ColorDoubleMacro" Res1="#ff0000" Res2="#ffffff">Red+White</Capability>
+  <Capability Min="37" Max="39" Preset="ColorDoubleMacro" Res1="#ff0000" Res2="#ff7800">Red+Amber</Capability>
+  <Capability Min="40" Max="42" Preset="ColorDoubleMacro" Res1="#ff0000" Res2="#9141ac">Red+Violet</Capability>
+  <Capability Min="43" Max="45" Preset="ColorDoubleMacro" Res1="#00ff00" Res2="#0000ff">Green+Blue</Capability>
+  <Capability Min="46" Max="48" Preset="ColorDoubleMacro" Res1="#00ff00" Res2="#ffffff">Green+White</Capability>
+  <Capability Min="49" Max="51" Preset="ColorDoubleMacro" Res1="#00ff00" Res2="#ff7800">Green+Amber</Capability>
+  <Capability Min="52" Max="54" Preset="ColorDoubleMacro" Res1="#00ff00" Res2="#9141ac">Green+Violet</Capability>
+  <Capability Min="55" Max="57" Preset="ColorDoubleMacro" Res1="#0000ff" Res2="#ffffff">Blue+White</Capability>
+  <Capability Min="58" Max="60" Preset="ColorDoubleMacro" Res1="#0000ff" Res2="#ff7800">Blue+Amber</Capability>
+  <Capability Min="61" Max="63" Preset="ColorDoubleMacro" Res1="#0000ff" Res2="#9141ac">Blue+Violet</Capability>
+  <Capability Min="64" Max="66" Preset="ColorDoubleMacro" Res1="#ffffff" Res2="#ff7800">White+Amber</Capability>
+  <Capability Min="67" Max="69" Preset="ColorDoubleMacro" Res1="#ffffff" Res2="#9141ac">White+Violet</Capability>
+  <Capability Min="70" Max="72" Preset="ColorDoubleMacro" Res1="#ff7800" Res2="#9141ac">Amber+Violet</Capability>
+  <Capability Min="73" Max="75" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="76" Max="78" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="79" Max="81" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+a.png">Red+Green+Amber</Capability>
+  <Capability Min="82" Max="84" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+v.png">Red+Green+Violet</Capability>
+  <Capability Min="85" Max="87" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="88" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+a.png">Green+Blue+Amber</Capability>
+  <Capability Min="91" Max="93" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+v.png">Green+Blue+Violet</Capability>
+  <Capability Min="94" Max="96" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+w+a.png">Blue+White+Amber</Capability>
+  <Capability Min="97" Max="99" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+w+v.png">Blue+White+Violet</Capability>
+  <Capability Min="100" Max="102" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+a+v.png">Blue+Amber+Violet</Capability>
+  <Capability Min="103" Max="105" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="106" Max="108" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+a.png">Red+Blue+Amber</Capability>
+  <Capability Min="109" Max="111" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+v.png">Red+Blue+Violet</Capability>
+  <Capability Min="112" Max="114" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+w+a.png">Red+white+Amber</Capability>
+  <Capability Min="115" Max="117" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+w+v.png">Red+White+Violet</Capability>
+  <Capability Min="118" Max="120" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+a+v.png">Red+Amber+Violet</Capability>
+  <Capability Min="121" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+w+a.png">Green+White+Amber</Capability>
+  <Capability Min="124" Max="126" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+w+v.png">Green+White+Violet</Capability>
+  <Capability Min="127" Max="129" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+a+v.png">Green+Amber+Violet</Capability>
+  <Capability Min="130" Max="132" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/w+a+v.png">White+Amber+Violet</Capability>
+  <Capability Min="133" Max="135" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+w.png">Red+Green+Blue+White</Capability>
+  <Capability Min="136" Max="138" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+a.png">Red+Green+Blue+Amber</Capability>
+  <Capability Min="139" Max="141" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+v.png">Red+Green+Blue+Violet</Capability>
+  <Capability Min="142" Max="144" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+w+a.png">Red+Green+White+Amber</Capability>
+  <Capability Min="145" Max="147" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+w+v.png">Red+Green+White+Violet</Capability>
+  <Capability Min="148" Max="150" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+a+v.png">Red+Green+Amber+Violet</Capability>
+  <Capability Min="151" Max="153" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+w+a.png">Red+Blue+White+Amber</Capability>
+  <Capability Min="154" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+w+v.png">Red+Blue+White+Violet</Capability>
+  <Capability Min="157" Max="159" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+a+v.png">Red+Blue+Amber+Violet</Capability>
+  <Capability Min="160" Max="162" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+w+a+v.png">Red+White+Amber+Violet</Capability>
+  <Capability Min="163" Max="165" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+w+a.png">Green+Blue+White+Amber</Capability>
+  <Capability Min="166" Max="168" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+w+v.png">Green+Blue+White+Violet</Capability>
+  <Capability Min="169" Max="171" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+a+v.png">Green+Blue+Amber+Violet</Capability>
+  <Capability Min="172" Max="174" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+w+a+v.png">Green+White+Amber+Violet</Capability>
+  <Capability Min="175" Max="177" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+w+a+v.png">Blue+White+Amber+Violet</Capability>
+  <Capability Min="178" Max="180" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+w+a.png">Red+Green+Blue+White+Amber</Capability>
+  <Capability Min="181" Max="183" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+w+v.png">Red+Green+Blue+White+Violet</Capability>
+  <Capability Min="184" Max="186" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+a+v.png">Red+Green+Blue+Amber+Violet</Capability>
+  <Capability Min="187" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+w+a+v.png">Red+Green+White+Amber+Violet</Capability>
+  <Capability Min="190" Max="192" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+w+a+v.png">Red+Blue+White+Amber+Violet</Capability>
+  <Capability Min="193" Max="195" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+w+a+v.png">Green+Blue+White+Amber+Violet</Capability>
+  <Capability Min="196" Max="198" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+w+a+v.png">All colors</Capability>
+  <Capability Min="199" Max="225">Color chase 1 (single color)</Capability>
+  <Capability Min="226" Max="255">Color chase 2 (single or multiple)</Capability>
+ </Channel>
+ <Channel Name="Auto-play LED color chase speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Speed from slow to fast</Capability>
+ </Channel>
+ <Channel Name="LED Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="9">No strobe</Capability>
+  <Capability Min="10" Max="244">Strobe speed slow to fast</Capability>
+  <Capability Min="245" Max="255">Strobe by sound</Capability>
+ </Channel>
+ <Channel Name="White Strobe LED control">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="9">Blackout</Capability>
+  <Capability Min="10" Max="14" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1.png">1</Capability>
+  <Capability Min="15" Max="19" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/2.png">2</Capability>
+  <Capability Min="20" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/3.png">3</Capability>
+  <Capability Min="25" Max="29" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/4.png">4</Capability>
+  <Capability Min="30" Max="34" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/5.png">5</Capability>
+  <Capability Min="35" Max="39" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/6.png">6</Capability>
+  <Capability Min="40" Max="44" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/7.png">7</Capability>
+  <Capability Min="45" Max="49" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/8.png">8</Capability>
+  <Capability Min="50" Max="54" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1+2.png">1+2</Capability>
+  <Capability Min="55" Max="59" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/3+4.png">3+4</Capability>
+  <Capability Min="60" Max="64" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/5+6.png">5+6</Capability>
+  <Capability Min="65" Max="69" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/7+8.png">7+8</Capability>
+  <Capability Min="70" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1+5.png">1+5</Capability>
+  <Capability Min="75" Max="79" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/2+6.png">2+6</Capability>
+  <Capability Min="80" Max="84" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/3+7.png">3+7</Capability>
+  <Capability Min="85" Max="89" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/4+8.png">4+8</Capability>
+  <Capability Min="90" Max="94" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1+2+3.png">1+2+3</Capability>
+  <Capability Min="95" Max="99" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/6+7+8.png">6+7+8</Capability>
+  <Capability Min="100" Max="104" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1+2+5+6.png">1+2+5+6</Capability>
+  <Capability Min="105" Max="109" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/3+4+7+8.png">3+4+7+8</Capability>
+  <Capability Min="110" Max="114" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1+2+3+4.png">1+2+3+4</Capability>
+  <Capability Min="115" Max="119" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/5+6+7+8.png">5+6+7+8</Capability>
+  <Capability Min="120" Max="124" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1+3+5+7.png">1+3+5+7</Capability>
+  <Capability Min="125" Max="129" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/2+4+6+8.png">2+4+6+8</Capability>
+  <Capability Min="130" Max="134" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1+2+3+4+5+6+7+8.png">1+2+3+4+5+6+7+8</Capability>
+  <Capability Min="135" Max="255">Chase effect</Capability>
+ </Channel>
+ <Channel Name="White LED chase speed + strobe">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="127">Chase speed slow to fast with no strobe</Capability>
+  <Capability Min="128" Max="255">Chase speed slow to fast with strobe</Capability>
+ </Channel>
+ <Channel Name="Laser control">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="9">Laser off</Capability>
+  <Capability Min="10" Max="49">Red</Capability>
+  <Capability Min="50" Max="89">Green</Capability>
+  <Capability Min="90" Max="129">Red and green</Capability>
+  <Capability Min="130" Max="169">Red and green flicker</Capability>
+  <Capability Min="170" Max="209">Green and red flicker</Capability>
+  <Capability Min="210" Max="249">Red, green synchronous flicker</Capability>
+  <Capability Min="250" Max="255">Red, green alternative flicker</Capability>
+ </Channel>
+ <Channel Name="Laser strobe control">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="9">Strobe off</Capability>
+  <Capability Min="10" Max="244">Strobe speed slow to fast</Capability>
+  <Capability Min="245" Max="255">Strobe by sound</Capability>
+ </Channel>
+ <Channel Name="Motor control">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="8">Motor off</Capability>
+  <Capability Min="9" Max="127">Motor CW from slow to fast</Capability>
+  <Capability Min="128" Max="255">Motor CCW from slow to fast</Capability>
+ </Channel>
+ <Channel Name="Laser pattern control">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="15" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern1.jpg">Pattern 1</Capability>
+  <Capability Min="16" Max="31" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern2.jpg">Pattern 2</Capability>
+  <Capability Min="32" Max="47" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern3.jpg">Pattern 3</Capability>
+  <Capability Min="48" Max="63" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern4.jpg">Pattern 4</Capability>
+  <Capability Min="64" Max="79" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern5.jpg">Pattern 5</Capability>
+  <Capability Min="80" Max="95" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern6.jpg">Pattern 6</Capability>
+  <Capability Min="96" Max="111" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern7.jpg">Pattern 7</Capability>
+  <Capability Min="112" Max="127" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern8.jpg">Pattern 8</Capability>
+  <Capability Min="128" Max="255">Patter chase from slow to fast</Capability>
+ </Channel>
+ <Mode Name="10ch">
+  <Channel Number="0" ActsOn="0">Control mode</Channel>
+  <Channel Number="1" ActsOn="1">RGBWAv control</Channel>
+  <Channel Number="2" ActsOn="2">Auto-play LED color chase speed</Channel>
+  <Channel Number="3" ActsOn="3">LED Strobe</Channel>
+  <Channel Number="4" ActsOn="4">White Strobe LED control</Channel>
+  <Channel Number="5" ActsOn="5">White LED chase speed + strobe</Channel>
+  <Channel Number="6" ActsOn="6">Laser control</Channel>
+  <Channel Number="7" ActsOn="7">Laser strobe control</Channel>
+  <Channel Number="8" ActsOn="8">Motor control</Channel>
+  <Channel Number="9" ActsOn="9">Laser pattern control</Channel>
+  <Head>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>8</Channel>
+  </Head>
+  <Head>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+  </Head>
+  <Head>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>9</Channel>
+  </Head>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="304" Height="313" Depth="230"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="80" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
