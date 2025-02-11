@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4</Version>
+  <Author>Robbie Munro</Author>
+ </Creator>
+ <Manufacturer>Yorkville Sound</Manufacturer>
+ <Model>LP-LED4X</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Red for Pod 1" Preset="IntensityRed"/>
+ <Channel Name="Green for Pod 1" Preset="IntensityGreen"/>
+ <Channel Name="Blue for Pod 1" Preset="IntensityBlue"/>
+ <Channel Name="White for Pod 1" Preset="IntensityWhite"/>
+ <Channel Name="Intensity for Pod 1">
+  <Group Byte="0">Intensity</Group>
+ </Channel>
+ <Channel Name="Red for Pod 2" Preset="IntensityRed"/>
+ <Channel Name="Green for Pod 2" Preset="IntensityGreen"/>
+ <Channel Name="Blue for Pod 2" Preset="IntensityBlue"/>
+ <Channel Name="White for Pod 2" Preset="IntensityWhite"/>
+ <Channel Name="Intensity for Pod 2">
+  <Group Byte="0">Intensity</Group>
+ </Channel>
+ <Channel Name="Red for Pod 3" Preset="IntensityRed"/>
+ <Channel Name="Green for Pod 3" Preset="IntensityGreen"/>
+ <Channel Name="Blue for Pod 3" Preset="IntensityBlue"/>
+ <Channel Name="White for Pod 3" Preset="IntensityWhite"/>
+ <Channel Name="Intensity for Pod 3">
+  <Group Byte="0">Intensity</Group>
+ </Channel>
+ <Channel Name="Red for Pod 4" Preset="IntensityRed"/>
+ <Channel Name="Green for Pod 4" Preset="IntensityGreen"/>
+ <Channel Name="Blue for Pod 4" Preset="IntensityBlue"/>
+ <Channel Name="White for Pod 4" Preset="IntensityWhite"/>
+ <Channel Name="Intensity for Pod 4">
+  <Group Byte="0">Intensity</Group>
+ </Channel>
+ <Mode Name="20ch">
+  <Channel Number="0" ActsOn="0">Red for Pod 1</Channel>
+  <Channel Number="1" ActsOn="1">Green for Pod 1</Channel>
+  <Channel Number="2" ActsOn="2">Blue for Pod 1</Channel>
+  <Channel Number="3" ActsOn="3">White for Pod 1</Channel>
+  <Channel Number="4" ActsOn="4">Intensity for Pod 1</Channel>
+  <Channel Number="5" ActsOn="5">Red for Pod 2</Channel>
+  <Channel Number="6" ActsOn="6">Green for Pod 2</Channel>
+  <Channel Number="7" ActsOn="7">Blue for Pod 2</Channel>
+  <Channel Number="8" ActsOn="8">White for Pod 2</Channel>
+  <Channel Number="9" ActsOn="9">Intensity for Pod 2</Channel>
+  <Channel Number="10" ActsOn="10">Red for Pod 3</Channel>
+  <Channel Number="11" ActsOn="11">Green for Pod 3</Channel>
+  <Channel Number="12" ActsOn="12">Blue for Pod 3</Channel>
+  <Channel Number="13" ActsOn="13">White for Pod 3</Channel>
+  <Channel Number="14" ActsOn="14">Intensity for Pod 3</Channel>
+  <Channel Number="15" ActsOn="15">Red for Pod 4</Channel>
+  <Channel Number="16" ActsOn="16">Green for Pod 4</Channel>
+  <Channel Number="17" ActsOn="17">Blue for Pod 4</Channel>
+  <Channel Number="18" ActsOn="18">White for Pod 4</Channel>
+  <Channel Number="19" ActsOn="19">Intensity for Pod 4</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+  </Head>
+  <Head>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+  </Head>
+  <Head>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+  </Head>
+  <Head>
+   <Channel>15</Channel>
+   <Channel>16</Channel>
+   <Channel>17</Channel>
+   <Channel>18</Channel>
+   <Channel>19</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="4ch">
+  <Channel Number="0" ActsOn="0">Intensity for Pod 1</Channel>
+  <Channel Number="1" ActsOn="1">Intensity for Pod 2</Channel>
+  <Channel Number="2" ActsOn="2">Intensity for Pod 3</Channel>
+  <Channel Number="3" ActsOn="3">Intensity for Pod 4</Channel>
+  <Head>
+   <Channel>0</Channel>
+  </Head>
+  <Head>
+   <Channel>1</Channel>
+  </Head>
+  <Head>
+   <Channel>2</Channel>
+  </Head>
+  <Head>
+   <Channel>3</Channel>
+  </Head>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="240" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
