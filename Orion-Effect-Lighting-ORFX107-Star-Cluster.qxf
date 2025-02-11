@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4</Version>
+  <Author>Robbie Munro</Author>
+ </Creator>
+ <Manufacturer>Orion Effects Lighting</Manufacturer>
+ <Model>ORFX107 Star Cluster</Model>
+ <Type>Effect</Type>
+ <Channel Name="4in1 LED mix color" Preset="ColorWheel"/>
+ <Channel Name="4in1 LED mix color speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255" Preset="RampUpSlowToFast">Mix color speed from slow to fast</Capability>
+ </Channel>
+ <Channel Name="4in1 LED strobe speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="8">No strobe</Capability>
+  <Capability Min="9" Max="255">Strobe speed from slow to fast</Capability>
+ </Channel>
+ <Channel Name="5050Strobe effect">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">Select effect</Capability>
+ </Channel>
+ <Channel Name="5050Strobe speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="8">No strobe</Capability>
+  <Capability Min="9" Max="255">Strobe speed slow to fast</Capability>
+ </Channel>
+ <Channel Name="5050Strobe effect speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Strobe effect slow to fast</Capability>
+ </Channel>
+ <Channel Name="LED Spot effect">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="7">Off</Capability>
+  <Capability Min="8" Max="37">Single colour all match RBWG rotation</Capability>
+  <Capability Min="38" Max="67">1 side at a time rotation counterclockwise</Capability>
+  <Capability Min="68" Max="97">Rotate opposite 1 channel at a time per side (counter rotate), offset on colours</Capability>
+  <Capability Min="98" Max="127">1 side, 1 channel at a time rotation</Capability>
+  <Capability Min="128" Max="157">1 side, 2 channel at a time half rotations</Capability>
+  <Capability Min="158" Max="187">1 side at a time fill in to full shape</Capability>
+  <Capability Min="188" Max="217">2 sides at a time fill in shape, counter rotate, offset colour</Capability>
+  <Capability Min="218" Max="247">2 sides opposite rotate to fill in</Capability>
+  <Capability Min="248" Max="255">Ongoing changes with fill in</Capability>
+ </Channel>
+ <Channel Name="LED Spot effect speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Speed from slow to fast</Capability>
+ </Channel>
+ <Channel Name="LED Spot strobe speed">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="8">No strobe</Capability>
+  <Capability Min="9" Max="255">Strobe speed from slow to fast</Capability>
+ </Channel>
+ <Channel Name="Laser show model">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="7">No function</Capability>
+  <Capability Min="8" Max="255">Show model for laser</Capability>
+ </Channel>
+ <Channel Name="Laser effect speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Laser effect from slow to fast</Capability>
+ </Channel>
+ <Channel Name="4in1 LED master dimmer" Preset="IntensityMasterDimmer"/>
+ <Channel Name="4in1 LED UV dimmer">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="7" Preset="LampOff">Off</Capability>
+  <Capability Min="8" Max="24" Preset="LampOn">Right pair ON</Capability>
+  <Capability Min="25" Max="41" Preset="LampOff">Off</Capability>
+  <Capability Min="42" Max="57" Preset="LampOn">Left pair ON</Capability>
+  <Capability Min="58" Max="90">???</Capability>
+  <Capability Min="91" Max="107">Both on</Capability>
+  <Capability Min="108" Max="255">???</Capability>
+ </Channel>
+ <Channel Name="4in1 LED color mix 1">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="7" Preset="LampOff">Off</Capability>
+  <Capability Min="8" Max="24" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+  <Capability Min="25" Max="41" Preset="ColorMacro" Res1="#00ff00">Green</Capability>
+  <Capability Min="42" Max="57" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="ColorMacro" Res1="#ffffff">White</Capability>
+  <Capability Min="75" Max="91" Preset="ColorMacro" Res1="#ffff00">Yellow</Capability>
+  <Capability Min="92" Max="107" Preset="ColorMacro" Res1="#9141ac">Purple</Capability>
+  <Capability Min="108" Max="123" Preset="ColorMacro" Res1="#ff4fce">Pink</Capability>
+  <Capability Min="124" Max="140" Preset="ColorMacro" Res1="#62a0ea">Light Blue</Capability>
+  <Capability Min="141" Max="156" Preset="ColorMacro" Res1="#33d17a">Mint Green</Capability>
+  <Capability Min="157" Max="173" Preset="ColorMacro" Res1="#dc8add">Violet/Soft Purple</Capability>
+  <Capability Min="174" Max="189" Preset="ColorMacro" Res1="#f9f06b">Pale yellow</Capability>
+  <Capability Min="190" Max="206">Unmapped</Capability>
+  <Capability Min="207" Max="211" Preset="ColorMacro" Res1="#ff00b0">Magenta</Capability>
+  <Capability Min="223" Max="239" Preset="ColorMacro" Res1="#00fffa">Cyan</Capability>
+  <Capability Min="240" Max="255" Preset="ColorMacro" Res1="#f4ffb0">All colors? Off white</Capability>
+ </Channel>
+ <Channel Name="4in1 LED color mix 2">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="7" Preset="LampOff">Off</Capability>
+  <Capability Min="8" Max="24" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+  <Capability Min="25" Max="41" Preset="ColorMacro" Res1="#00ff00">Green</Capability>
+  <Capability Min="42" Max="57" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="ColorMacro" Res1="#ffffff">White</Capability>
+  <Capability Min="75" Max="91" Preset="ColorMacro" Res1="#ffff00">Yellow</Capability>
+  <Capability Min="92" Max="107" Preset="ColorMacro" Res1="#9141ac">Purple</Capability>
+  <Capability Min="108" Max="123" Preset="ColorMacro" Res1="#ff4fce">Pink</Capability>
+  <Capability Min="124" Max="140" Preset="ColorMacro" Res1="#62a0ea">Light Blue</Capability>
+  <Capability Min="141" Max="156" Preset="ColorMacro" Res1="#33d17a">Mint Green</Capability>
+  <Capability Min="157" Max="173" Preset="ColorMacro" Res1="#dc8add">Violet/Soft Purple</Capability>
+  <Capability Min="174" Max="189" Preset="ColorMacro" Res1="#f9f06b">Pale yellow</Capability>
+  <Capability Min="190" Max="206">Unmapped</Capability>
+  <Capability Min="207" Max="211" Preset="ColorMacro" Res1="#ff00b0">Magenta</Capability>
+  <Capability Min="223" Max="239" Preset="ColorMacro" Res1="#00fffa">Cyan</Capability>
+  <Capability Min="240" Max="255" Preset="ColorMacro" Res1="#f4ffb0">All colors? Off white</Capability>
+ </Channel>
+ <Channel Name="4in1 LED color effect">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="7" Preset="LampOff">Off</Capability>
+  <Capability Min="8" Max="37">RGBWYP Colour Chase in order R to L</Capability>
+  <Capability Min="38" Max="67">Stingle Colour Pass R to L, with UV between</Capability>
+  <Capability Min="68" Max="97">UV L-R-Both Random</Capability>
+  <Capability Min="98" Max="127">RGBW 2 Colour Chase</Capability>
+  <Capability Min="128" Max="157">RGBWYP Colour + Match Loop R to L</Capability>
+  <Capability Min="158" Max="187">Alternating Sides RGBW, Colour changes every 2 alternations</Capability>
+  <Capability Min="188" Max="247">RGBW Colour + Match Loop + UV, L to R</Capability>
+  <Capability Min="248" Max="255">Random patterns</Capability>
+ </Channel>
+ <Channel Name="5050Strobe master dimmer" Preset="IntensityMasterDimmer"/>
+ <Channel Name="LED Spot master dimmer" Preset="IntensityMasterDimmer"/>
+ <Channel Name="LED Spot color mix 1">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="7">Off</Capability>
+  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r.png">Red</Capability>
+  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g.png">Green</Capability>
+  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1b.png">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1w.png">White</Capability>
+  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g.png">Red+Green</Capability>
+  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+b.png">Red+Blue</Capability>
+  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+w.png">Red+White</Capability>
+  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+b.png">Green+Blue</Capability>
+  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+w.png">Green+White</Capability>
+  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1b+w.png">Blue+White</Capability>
+  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+b+w.png">All colors</Capability>
+ </Channel>
+ <Channel Name="LED Spot color mix 2">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="7">Off</Capability>
+  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r.png">Red</Capability>
+  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g.png">Green</Capability>
+  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2b.png">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2w.png">White</Capability>
+  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g.png">Red+Green</Capability>
+  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+b.png">Red+Blue</Capability>
+  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+w.png">Red+White</Capability>
+  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+b.png">Green+Blue</Capability>
+  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+w.png">Green+White</Capability>
+  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2b+w.png">Blue+White</Capability>
+  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+b+w.png">All colors</Capability>
+ </Channel>
+ <Channel Name="LED Spot color mix 3">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="7">Off</Capability>
+  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r.png">Red</Capability>
+  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g.png">Green</Capability>
+  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1b.png">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1w.png">White</Capability>
+  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g.png">Red+Green</Capability>
+  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+b.png">Red+Blue</Capability>
+  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+w.png">Red+White</Capability>
+  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+b.png">Green+Blue</Capability>
+  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+w.png">Green+White</Capability>
+  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1b+w.png">Blue+White</Capability>
+  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+b+w.png">All colors</Capability>
+ </Channel>
+ <Channel Name="LED Spot color mix 4">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="7">Off</Capability>
+  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r.png">Red</Capability>
+  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g.png">Green</Capability>
+  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2b.png">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2w.png">White</Capability>
+  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g.png">Red+Green</Capability>
+  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+b.png">Red+Blue</Capability>
+  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+w.png">Red+White</Capability>
+  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+b.png">Green+Blue</Capability>
+  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+w.png">Green+White</Capability>
+  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2b+w.png">Blue+White</Capability>
+  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+b+w.png">All colors</Capability>
+ </Channel>
+ <Channel Name="Laser Red control">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="7">Off</Capability>
+  <Capability Min="8" Max="127">On</Capability>
+  <Capability Min="128" Max="255">On-Off cycle</Capability>
+ </Channel>
+ <Channel Name="Laser Green control">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="7">Off</Capability>
+  <Capability Min="8" Max="127">On</Capability>
+  <Capability Min="128" Max="255">On-Off cycle</Capability>
+ </Channel>
+ <Channel Name="Laser movement">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="10">Stop</Capability>
+  <Capability Min="11" Max="120">Movement forward fast to slow</Capability>
+  <Capability Min="121" Max="134">Stop</Capability>
+  <Capability Min="135" Max="245">Movement forward fast to slow</Capability>
+  <Capability Min="246" Max="255">Stop</Capability>
+ </Channel>
+ <Mode Name="11ch">
+  <Channel Number="0" ActsOn="0">4in1 LED mix color</Channel>
+  <Channel Number="1" ActsOn="1">4in1 LED mix color speed</Channel>
+  <Channel Number="2" ActsOn="2">4in1 LED strobe speed</Channel>
+  <Channel Number="3" ActsOn="3">5050Strobe effect</Channel>
+  <Channel Number="4" ActsOn="4">5050Strobe speed</Channel>
+  <Channel Number="5" ActsOn="5">5050Strobe effect speed</Channel>
+  <Channel Number="6" ActsOn="6">LED Spot effect</Channel>
+  <Channel Number="7" ActsOn="7">LED Spot effect speed</Channel>
+  <Channel Number="8" ActsOn="8">LED Spot strobe speed</Channel>
+  <Channel Number="9" ActsOn="9">Laser show model</Channel>
+  <Channel Number="10" ActsOn="10">Laser effect speed</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+  </Head>
+  <Head>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+  </Head>
+  <Head>
+   <Channel>6</Channel>
+   <Channel>8</Channel>
+   <Channel>7</Channel>
+  </Head>
+  <Head>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="24ch">
+  <Channel Number="0" ActsOn="0">4in1 LED master dimmer</Channel>
+  <Channel Number="1" ActsOn="1">4in1 LED strobe speed</Channel>
+  <Channel Number="2" ActsOn="2">4in1 LED UV dimmer</Channel>
+  <Channel Number="3" ActsOn="3">4in1 LED color mix 1</Channel>
+  <Channel Number="4" ActsOn="4">4in1 LED color mix 2</Channel>
+  <Channel Number="5" ActsOn="5">4in1 LED color effect</Channel>
+  <Channel Number="6" ActsOn="6">4in1 LED mix color speed</Channel>
+  <Channel Number="7" ActsOn="7">5050Strobe master dimmer</Channel>
+  <Channel Number="8" ActsOn="8">5050Strobe speed</Channel>
+  <Channel Number="9" ActsOn="9">5050Strobe effect</Channel>
+  <Channel Number="10" ActsOn="10">5050Strobe effect speed</Channel>
+  <Channel Number="11" ActsOn="11">LED Spot master dimmer</Channel>
+  <Channel Number="12" ActsOn="12">LED Spot strobe speed</Channel>
+  <Channel Number="13" ActsOn="13">LED Spot color mix 1</Channel>
+  <Channel Number="14" ActsOn="14">LED Spot color mix 2</Channel>
+  <Channel Number="15" ActsOn="15">LED Spot color mix 3</Channel>
+  <Channel Number="16" ActsOn="16">LED Spot color mix 4</Channel>
+  <Channel Number="17" ActsOn="17">LED Spot effect</Channel>
+  <Channel Number="18" ActsOn="18">LED Spot effect speed</Channel>
+  <Channel Number="19" ActsOn="19">Laser Red control</Channel>
+  <Channel Number="20" ActsOn="20">Laser Green control</Channel>
+  <Channel Number="21" ActsOn="21">Laser movement</Channel>
+  <Channel Number="22" ActsOn="22">Laser show model</Channel>
+  <Channel Number="23" ActsOn="23">Laser effect speed</Channel>
+  <Head>
+   <Channel>1</Channel>
+   <Channel>0</Channel>
+   <Channel>3</Channel>
+   <Channel>2</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+  </Head>
+  <Head>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+  </Head>
+  <Head>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+   <Channel>16</Channel>
+   <Channel>17</Channel>
+   <Channel>18</Channel>
+  </Head>
+  <Head>
+   <Channel>19</Channel>
+   <Channel>20</Channel>
+   <Channel>21</Channel>
+   <Channel>22</Channel>
+   <Channel>23</Channel>
+  </Head>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>
