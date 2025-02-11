@@ -22,7 +22,7 @@
   <Capability Min="220" Max="249">Sound control 4 (Mixing)</Capability>
   <Capability Min="250" Max="255">DMX control</Capability>
  </Channel>
- <Channel Name="RGBWAv control">
+ <Channel Name="RGBWAV control">
   <Group Byte="0">Effect</Group>
   <Capability Min="0" Max="9">Blackout</Capability>
   <Capability Min="10" Max="12" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
@@ -102,7 +102,7 @@
   <Capability Min="245" Max="255">Strobe by sound</Capability>
  </Channel>
  <Channel Name="White Strobe LED control">
-  <Group Byte="0">Shutter</Group>
+  <Group Byte="0">Effect</Group>
   <Capability Min="0" Max="9">Blackout</Capability>
   <Capability Min="10" Max="14" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/1.png">1</Capability>
   <Capability Min="15" Max="19" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/2.png">2</Capability>
@@ -150,14 +150,14 @@
  <Channel Name="Laser strobe control">
   <Group Byte="0">Shutter</Group>
   <Capability Min="0" Max="9">Strobe off</Capability>
-  <Capability Min="10" Max="244">Strobe speed slow to fast</Capability>
+  <Capability Min="10" Max="244" Preset="StrobeSlowToFast">Strobe speed slow to fast</Capability>
   <Capability Min="245" Max="255">Strobe by sound</Capability>
  </Channel>
  <Channel Name="Motor control">
   <Group Byte="0">Speed</Group>
   <Capability Min="0" Max="8">Motor off</Capability>
-  <Capability Min="9" Max="127">Motor CW from slow to fast</Capability>
-  <Capability Min="128" Max="255">Motor CCW from slow to fast</Capability>
+  <Capability Min="9" Max="127" Preset="RotationClockwiseSlowToFast">Motor CW from slow to fast</Capability>
+  <Capability Min="128" Max="255" Preset="RotationCounterClockwiseSlowToFast">Motor CCW from slow to fast</Capability>
  </Channel>
  <Channel Name="Laser pattern control">
   <Group Byte="0">Gobo</Group>
@@ -169,19 +169,18 @@
   <Capability Min="80" Max="95" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern6.jpg">Pattern 6</Capability>
   <Capability Min="96" Max="111" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern7.jpg">Pattern 7</Capability>
   <Capability Min="112" Max="127" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/pattern8.jpg">Pattern 8</Capability>
-  <Capability Min="128" Max="255">Patter chase from slow to fast</Capability>
+  <Capability Min="128" Max="255">Pattern chase from slow to fast</Capability>
  </Channel>
  <Mode Name="10ch">
   <Channel Number="0" ActsOn="0">Control mode</Channel>
-  <Channel Number="1" ActsOn="1">RGBWAv control</Channel>
-  <Channel Number="2" ActsOn="2">Auto-play LED color chase speed</Channel>
-  <Channel Number="3" ActsOn="3">LED Strobe</Channel>
-  <Channel Number="4" ActsOn="4">White Strobe LED control</Channel>
-  <Channel Number="5" ActsOn="5">White LED chase speed + strobe</Channel>
-  <Channel Number="6" ActsOn="6">Laser control</Channel>
-  <Channel Number="7" ActsOn="7">Laser strobe control</Channel>
-  <Channel Number="8" ActsOn="8">Motor control</Channel>
-  <Channel Number="9" ActsOn="9">Laser pattern control</Channel>
+  <Channel Number="1" ActsOn="2">Auto-play LED color chase speed</Channel>
+  <Channel Number="2" ActsOn="3">LED Strobe</Channel>
+  <Channel Number="3" ActsOn="4">White Strobe LED control</Channel>
+  <Channel Number="4" ActsOn="5">White LED chase speed + strobe</Channel>
+  <Channel Number="5" ActsOn="6">Laser control</Channel>
+  <Channel Number="6" ActsOn="7">Laser strobe control</Channel>
+  <Channel Number="7" ActsOn="8">Motor control</Channel>
+  <Channel Number="8">Laser pattern control</Channel>
   <Head>
    <Channel>1</Channel>
    <Channel>2</Channel>
