@@ -50,21 +50,21 @@
   <Capability Min="76" Max="78" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+w.png">Red+Green+White</Capability>
   <Capability Min="79" Max="81" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+a.png">Red+Green+Amber</Capability>
   <Capability Min="82" Max="84" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+v.png">Red+Green+Violet</Capability>
-  <Capability Min="85" Max="87" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+w.png">Green+Blue+White</Capability>
-  <Capability Min="88" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+a.png">Green+Blue+Amber</Capability>
-  <Capability Min="91" Max="93" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+v.png">Green+Blue+Violet</Capability>
-  <Capability Min="94" Max="96" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+w+a.png">Blue+White+Amber</Capability>
-  <Capability Min="97" Max="99" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+w+v.png">Blue+White+Violet</Capability>
-  <Capability Min="100" Max="102" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+a+v.png">Blue+Amber+Violet</Capability>
-  <Capability Min="103" Max="105" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+w.png">Red+Blue+White</Capability>
-  <Capability Min="106" Max="108" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+a.png">Red+Blue+Amber</Capability>
-  <Capability Min="109" Max="111" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+v.png">Red+Blue+Violet</Capability>
-  <Capability Min="112" Max="114" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+w+a.png">Red+white+Amber</Capability>
-  <Capability Min="115" Max="117" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+w+v.png">Red+White+Violet</Capability>
-  <Capability Min="118" Max="120" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+a+v.png">Red+Amber+Violet</Capability>
-  <Capability Min="121" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+w+a.png">Green+White+Amber</Capability>
-  <Capability Min="124" Max="126" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+w+v.png">Green+White+Violet</Capability>
-  <Capability Min="127" Max="129" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+a+v.png">Green+Amber+Violet</Capability>
+  <Capability Min="85" Max="87" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="88" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+a.png">Red+Blue+Amber</Capability>
+  <Capability Min="91" Max="93" Preset="GoboMacro" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+b+v.png">Red+Blue+Violet</Capability>
+  <Capability Min="94" Max="96" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+w+a.png">Red+White+Amber</Capability>
+  <Capability Min="97" Max="99" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+w+v.png">Red+White+Violet</Capability>
+  <Capability Min="100" Max="102" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+a+v.png">Red+Amber+Violet</Capability>
+  <Capability Min="103" Max="105" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="106" Max="108" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+a.png">Green+Blue+Amber</Capability>
+  <Capability Min="109" Max="111" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+b+v.png">Green+Blue+Violet</Capability>
+  <Capability Min="112" Max="114" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+w+a.png">Green+White+Amber</Capability>
+  <Capability Min="115" Max="117" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+w+v.png">Green+White+Violet</Capability>
+  <Capability Min="118" Max="120" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/g+a+v.png">Green+Amber+Violet</Capability>
+  <Capability Min="121" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+w+a.png">Blue+White+Amber</Capability>
+  <Capability Min="124" Max="126" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+w+v.png">Blue+White+Violet</Capability>
+  <Capability Min="127" Max="129" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/b+a+v.png">Blue+Amber+Violet</Capability>
   <Capability Min="130" Max="132" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/w+a+v.png">White+Amber+Violet</Capability>
   <Capability Min="133" Max="135" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+w.png">Red+Green+Blue+White</Capability>
   <Capability Min="136" Max="138" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/polaris2/r+g+b+a.png">Red+Green+Blue+Amber</Capability>
@@ -173,14 +173,15 @@
  </Channel>
  <Mode Name="10ch">
   <Channel Number="0" ActsOn="0">Control mode</Channel>
-  <Channel Number="1" ActsOn="2">Auto-play LED color chase speed</Channel>
-  <Channel Number="2" ActsOn="3">LED Strobe</Channel>
-  <Channel Number="3" ActsOn="4">White Strobe LED control</Channel>
-  <Channel Number="4" ActsOn="5">White LED chase speed + strobe</Channel>
-  <Channel Number="5" ActsOn="6">Laser control</Channel>
-  <Channel Number="6" ActsOn="7">Laser strobe control</Channel>
-  <Channel Number="7" ActsOn="8">Motor control</Channel>
-  <Channel Number="8">Laser pattern control</Channel>
+  <Channel Number="1">RGBWAV control</Channel>
+  <Channel Number="2" ActsOn="3">Auto-play LED color chase speed</Channel>
+  <Channel Number="3" ActsOn="4">LED Strobe</Channel>
+  <Channel Number="4" ActsOn="5">White Strobe LED control</Channel>
+  <Channel Number="5" ActsOn="6">White LED chase speed + strobe</Channel>
+  <Channel Number="6" ActsOn="7">Laser control</Channel>
+  <Channel Number="7" ActsOn="8">Laser strobe control</Channel>
+  <Channel Number="8" ActsOn="9">Motor control</Channel>
+  <Channel Number="9">Laser pattern control</Channel>
   <Head>
    <Channel>1</Channel>
    <Channel>2</Channel>
