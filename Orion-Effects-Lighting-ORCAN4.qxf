@@ -6,7 +6,7 @@
   <Version>4.14.1-2</Version>
   <Author>Robbie</Author>
  </Creator>
- <Manufacturer>Orion Effects LIghting</Manufacturer>
+ <Manufacturer>Orion Effects Lighting</Manufacturer>
  <Model>ORCAN4</Model>
  <Type>Dimmer</Type>
  <Channel Name="Master dimmer" Preset="IntensityMasterDimmer"/>
