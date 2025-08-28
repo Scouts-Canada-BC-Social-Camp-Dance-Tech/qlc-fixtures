@@ -129,78 +129,78 @@
  <Channel Name="LED Spot color mix 1">
   <Group Byte="0">Colour</Group>
   <Capability Min="0" Max="7">Off</Capability>
-  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r.png">Red</Capability>
-  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g.png">Green</Capability>
-  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1b.png">Blue</Capability>
-  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1w.png">White</Capability>
-  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g.png">Red+Green</Capability>
-  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+b.png">Red+Blue</Capability>
-  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+w.png">Red+White</Capability>
-  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+b.png">Green+Blue</Capability>
-  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+w.png">Green+White</Capability>
-  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1b+w.png">Blue+White</Capability>
-  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+b.png">Red+Green+Blue</Capability>
-  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+w.png">Red+Green+White</Capability>
-  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+b+w.png">Red+Blue+White</Capability>
-  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+b+w.png">Green+Blue+White</Capability>
-  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+b+w.png">All colors</Capability>
+  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r.png">Red</Capability>
+  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1g.png">Green</Capability>
+  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1b.png">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1w.png">White</Capability>
+  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+g.png">Red+Green</Capability>
+  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+b.png">Red+Blue</Capability>
+  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+w.png">Red+White</Capability>
+  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1g+b.png">Green+Blue</Capability>
+  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1g+w.png">Green+White</Capability>
+  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1b+w.png">Blue+White</Capability>
+  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+g+b+w.png">All colors</Capability>
  </Channel>
  <Channel Name="LED Spot color mix 2">
   <Group Byte="0">Colour</Group>
   <Capability Min="0" Max="7">Off</Capability>
-  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r.png">Red</Capability>
-  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g.png">Green</Capability>
-  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2b.png">Blue</Capability>
-  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2w.png">White</Capability>
-  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g.png">Red+Green</Capability>
-  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+b.png">Red+Blue</Capability>
-  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+w.png">Red+White</Capability>
-  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+b.png">Green+Blue</Capability>
-  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+w.png">Green+White</Capability>
-  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2b+w.png">Blue+White</Capability>
-  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+b.png">Red+Green+Blue</Capability>
-  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+w.png">Red+Green+White</Capability>
-  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+b+w.png">Red+Blue+White</Capability>
-  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+b+w.png">Green+Blue+White</Capability>
-  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+b+w.png">All colors</Capability>
+  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r.png">Red</Capability>
+  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2g.png">Green</Capability>
+  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2b.png">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2w.png">White</Capability>
+  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+g.png">Red+Green</Capability>
+  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+b.png">Red+Blue</Capability>
+  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+w.png">Red+White</Capability>
+  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2g+b.png">Green+Blue</Capability>
+  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2g+w.png">Green+White</Capability>
+  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2b+w.png">Blue+White</Capability>
+  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+g+b+w.png">All colors</Capability>
  </Channel>
  <Channel Name="LED Spot color mix 3">
   <Group Byte="0">Colour</Group>
   <Capability Min="0" Max="7">Off</Capability>
-  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r.png">Red</Capability>
-  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g.png">Green</Capability>
-  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1b.png">Blue</Capability>
-  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1w.png">White</Capability>
-  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g.png">Red+Green</Capability>
-  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+b.png">Red+Blue</Capability>
-  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+w.png">Red+White</Capability>
-  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+b.png">Green+Blue</Capability>
-  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+w.png">Green+White</Capability>
-  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1b+w.png">Blue+White</Capability>
-  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+b.png">Red+Green+Blue</Capability>
-  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+w.png">Red+Green+White</Capability>
-  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+b+w.png">Red+Blue+White</Capability>
-  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1g+b+w.png">Green+Blue+White</Capability>
-  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/1r+g+b+w.png">All colors</Capability>
+  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r.png">Red</Capability>
+  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1g.png">Green</Capability>
+  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1b.png">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1w.png">White</Capability>
+  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+g.png">Red+Green</Capability>
+  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+b.png">Red+Blue</Capability>
+  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+w.png">Red+White</Capability>
+  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1g+b.png">Green+Blue</Capability>
+  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1g+w.png">Green+White</Capability>
+  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1b+w.png">Blue+White</Capability>
+  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\1r+g+b+w.png">All colors</Capability>
  </Channel>
  <Channel Name="LED Spot color mix 4">
   <Group Byte="0">Colour</Group>
   <Capability Min="0" Max="7">Off</Capability>
-  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r.png">Red</Capability>
-  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g.png">Green</Capability>
-  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2b.png">Blue</Capability>
-  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2w.png">White</Capability>
-  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g.png">Red+Green</Capability>
-  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+b.png">Red+Blue</Capability>
-  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+w.png">Red+White</Capability>
-  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+b.png">Green+Blue</Capability>
-  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+w.png">Green+White</Capability>
-  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2b+w.png">Blue+White</Capability>
-  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+b.png">Red+Green+Blue</Capability>
-  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+w.png">Red+Green+White</Capability>
-  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+b+w.png">Red+Blue+White</Capability>
-  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2g+b+w.png">Green+Blue+White</Capability>
-  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="/home/aboreddev/.qlcplus/fixtures/starcluster/2r+g+b+w.png">All colors</Capability>
+  <Capability Min="8" Max="24" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r.png">Red</Capability>
+  <Capability Min="25" Max="41" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2g.png">Green</Capability>
+  <Capability Min="42" Max="57" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2b.png">Blue</Capability>
+  <Capability Min="58" Max="74" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2w.png">White</Capability>
+  <Capability Min="75" Max="90" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+g.png">Red+Green</Capability>
+  <Capability Min="91" Max="107" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+b.png">Red+Blue</Capability>
+  <Capability Min="108" Max="123" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+w.png">Red+White</Capability>
+  <Capability Min="124" Max="140" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2g+b.png">Green+Blue</Capability>
+  <Capability Min="141" Max="156" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2g+w.png">Green+White</Capability>
+  <Capability Min="157" Max="173" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2b+w.png">Blue+White</Capability>
+  <Capability Min="174" Max="189" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+g+b.png">Red+Green+Blue</Capability>
+  <Capability Min="190" Max="206" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+g+w.png">Red+Green+White</Capability>
+  <Capability Min="207" Max="222" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+b+w.png">Red+Blue+White</Capability>
+  <Capability Min="223" Max="239" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2g+b+w.png">Green+Blue+White</Capability>
+  <Capability Min="240" Max="255" Preset="GenericPicture" Res1="{FixturesDirectory}\starcluster\2r+g+b+w.png">All colors</Capability>
  </Channel>
  <Channel Name="Laser Red control">
   <Group Byte="0">Intensity</Group>

@@ -3,12 +3,12 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.14.0</Version>
-  <Author>kaide</Author>
+  <Version>4.14.3</Version>
+  <Author>Kaiden Richardson</Author>
  </Creator>
  <Manufacturer>American DJ</Manufacturer>
  <Model>Stealth Spot</Model>
- <Type>Dimmer</Type>
+ <Type>Moving Head</Type>
  <Channel Name="Pan" Preset="PositionPan"/>
  <Channel Name="Tilt" Preset="PositionTilt"/>
  <Channel Name="Programs">
@@ -49,26 +49,26 @@
  <Channel Name="Colour Effect">
   <Group Byte="0">Colour</Group>
   <Capability Min="0" Max="13">Open</Capability>
-  <Capability Min="14" Max="31">Red</Capability>
-  <Capability Min="32" Max="49">Yellow</Capability>
-  <Capability Min="50" Max="67">Light Blue</Capability>
-  <Capability Min="68" Max="85">Green</Capability>
-  <Capability Min="86" Max="103">Orange</Capability>
-  <Capability Min="104" Max="121">Pink</Capability>
-  <Capability Min="122" Max="130">Blue</Capability>
-  <Capability Min="131" Max="139">Open</Capability>
+  <Capability Min="14" Max="31" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+  <Capability Min="32" Max="49" Preset="ColorMacro" Res1="#ffff00">Yellow</Capability>
+  <Capability Min="50" Max="67" Preset="ColorMacro" Res1="#00c8ff">Light Blue</Capability>
+  <Capability Min="68" Max="85" Preset="ColorMacro" Res1="#00ff00">Green</Capability>
+  <Capability Min="86" Max="103" Preset="ColorMacro" Res1="#ff5500">Orange</Capability>
+  <Capability Min="104" Max="121" Preset="ColorMacro" Res1="#ff557f">Pink</Capability>
+  <Capability Min="122" Max="130" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
+  <Capability Min="131" Max="139" Preset="ColorMacro" Res1="#ffffff">Open</Capability>
   <Capability Min="140" Max="195" Preset="FastToSlow">Forward Rotation (Fast to Slow)</Capability>
   <Capability Min="196" Max="199">Stop</Capability>
   <Capability Min="200" Max="255" Preset="SlowToFast">Reverse Rotation (Slow to Fast)</Capability>
  </Channel>
  <Channel Name="Gobo Wheel">
   <Group Byte="0">Gobo</Group>
-  <Capability Min="0" Max="8" Preset="GenericPicture" Res1="C:/Users/kaide/QLC+/Fixtures/stealthspot/spot.png">Open</Capability>
-  <Capability Min="9" Max="33" Preset="GenericPicture" Res1="C:/Users/kaide/QLC+/Fixtures/stealthspot/flower.png">Sun</Capability>
-  <Capability Min="34" Max="58" Preset="GenericPicture" Res1="C:/Users/kaide/QLC+/Fixtures/stealthspot/3spots.png">Dots</Capability>
-  <Capability Min="59" Max="83" Preset="GenericPicture" Res1="C:/Users/kaide/QLC+/Fixtures/stealthspot/triangle.png">Triangle</Capability>
-  <Capability Min="84" Max="108" Preset="GenericPicture" Res1="C:/Users/kaide/QLC+/Fixtures/stealthspot/spiral.png">Spiral</Capability>
-  <Capability Min="109" Max="133" Preset="GenericPicture" Res1="C:/Users/kaide/QLC+/Fixtures/stealthspot/star.png">Star</Capability>
+  <Capability Min="0" Max="8" Preset="GenericPicture" Res1="{FixturesDirectory}\stealthspot\spot.png">Open</Capability>
+  <Capability Min="9" Max="33" Preset="GenericPicture" Res1="{FixturesDirectory}\stealthspot\flower.png">Sun</Capability>
+  <Capability Min="34" Max="58" Preset="GenericPicture" Res1="{FixturesDirectory}\stealthspot\3spots.png">Dots</Capability>
+  <Capability Min="59" Max="83" Preset="GenericPicture" Res1="{FixturesDirectory}\stealthspot\triangle.png">Triangle</Capability>
+  <Capability Min="84" Max="108" Preset="GenericPicture" Res1="{FixturesDirectory}\stealthspot\spiral.png">Spiral</Capability>
+  <Capability Min="109" Max="133" Preset="GenericPicture" Res1="{FixturesDirectory}\stealthspot\star.png">Star</Capability>
   <Capability Min="134" Max="194" Preset="FastToSlow">Forward Rotation (Fast to Slow)</Capability>
   <Capability Min="195" Max="255" Preset="SlowToFast">Reverse Rotation (Slow to Fast)</Capability>
  </Channel>
@@ -96,34 +96,34 @@
  </Channel>
  <Channel Name="Pan/Tilt Speed" Preset="SpeedPanTiltFastSlow"/>
  <Mode Name="5 Channel Mode">
-  <Channel Number="0" ActsOn="0">Pan</Channel>
-  <Channel Number="1" ActsOn="1">Tilt</Channel>
-  <Channel Number="2" ActsOn="2">Programs</Channel>
-  <Channel Number="3" ActsOn="3">Pan/Tilt Programs</Channel>
-  <Channel Number="4" ActsOn="4">Pan/Tilt Program Speed</Channel>
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Tilt</Channel>
+  <Channel Number="2" ActsOn="0">Programs</Channel>
+  <Channel Number="3" ActsOn="2">Pan/Tilt Programs</Channel>
+  <Channel Number="4" ActsOn="3">Pan/Tilt Program Speed</Channel>
  </Mode>
  <Mode Name="15 Channel Mode">
-  <Channel Number="0" ActsOn="0">Pan</Channel>
-  <Channel Number="1" ActsOn="1">Pan fine</Channel>
-  <Channel Number="2" ActsOn="2">Tilt</Channel>
-  <Channel Number="3" ActsOn="3">Tilt fine</Channel>
-  <Channel Number="4" ActsOn="4">Colour Effect</Channel>
-  <Channel Number="5" ActsOn="5">Gobo Wheel</Channel>
-  <Channel Number="6" ActsOn="6">Gobo Rotation</Channel>
-  <Channel Number="7" ActsOn="7">Master dimmer</Channel>
-  <Channel Number="8" ActsOn="8">Shutter/Strobing</Channel>
-  <Channel Number="9" ActsOn="9">Focus</Channel>
-  <Channel Number="10" ActsOn="10">Prism Effect</Channel>
-  <Channel Number="11" ActsOn="11">Programs</Channel>
-  <Channel Number="12" ActsOn="12">Pan/Tilt Programs</Channel>
-  <Channel Number="13" ActsOn="13">Pan/Tilt Speed</Channel>
-  <Channel Number="14" ActsOn="14">Pan/Tilt Program Speed</Channel>
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1" ActsOn="0">Pan fine</Channel>
+  <Channel Number="2">Tilt</Channel>
+  <Channel Number="3" ActsOn="2">Tilt fine</Channel>
+  <Channel Number="4">Colour Effect</Channel>
+  <Channel Number="5">Gobo Wheel</Channel>
+  <Channel Number="6" ActsOn="5">Gobo Rotation</Channel>
+  <Channel Number="7">Master dimmer</Channel>
+  <Channel Number="8" ActsOn="7">Shutter/Strobing</Channel>
+  <Channel Number="9">Focus</Channel>
+  <Channel Number="10">Prism Effect</Channel>
+  <Channel Number="11">Programs</Channel>
+  <Channel Number="12" ActsOn="0">Pan/Tilt Programs</Channel>
+  <Channel Number="13" ActsOn="0">Pan/Tilt Speed</Channel>
+  <Channel Number="14" ActsOn="12">Pan/Tilt Program Speed</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
-  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Focus Type="Head" PanMax="540" TiltMax="210"/>
   <Technical PowerConsumption="90" DmxConnector="3-pin"/>
  </Physical>
 </FixtureDefinition>
