@@ -56,8 +56,8 @@
   <Channel Number="15">Red for Pod 4</Channel>
   <Channel Number="16">Green for Pod 4</Channel>
   <Channel Number="17">Blue for Pod 4</Channel>
-  <Channel Number="18">Intensity for Pod 4</Channel>
-  <Channel Number="19">White for Pod 4</Channel>
+  <Channel Number="18">White for Pod 4</Channel>
+  <Channel Number="19">Intensity for Pod 4</Channel>
   <Head>
    <Channel>0</Channel>
    <Channel>1</Channel>
