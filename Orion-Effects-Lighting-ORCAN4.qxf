@@ -3,12 +3,12 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.14.1-2</Version>
+  <Version>4.14.3</Version>
   <Author>Robbie</Author>
  </Creator>
  <Manufacturer>Orion Effects Lighting</Manufacturer>
  <Model>ORCAN4</Model>
- <Type>Dimmer</Type>
+ <Type>Color Changer</Type>
  <Channel Name="Master dimmer" Preset="IntensityMasterDimmer"/>
  <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
  <Channel Name="Effect Select">
