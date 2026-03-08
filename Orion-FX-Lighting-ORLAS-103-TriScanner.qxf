@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>kaide</Author>
+ </Creator>
+ <Manufacturer>Orion FX Lighting</Manufacturer>
+ <Model>ORLAS 103 TriScanner</Model>
+ <Type>Laser</Type>
+ <Channel Name="Mode">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="49">Off</Capability>
+  <Capability Min="50" Max="99">Sound Active</Capability>
+  <Capability Min="100" Max="149">Auto Mode</Capability>
+  <Capability Min="150" Max="199">Static Patterns</Capability>
+  <Capability Min="200" Max="255">Dynamic Patterns</Capability>
+ </Channel>
+ <Channel Name="Pattern Select">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="255">Effect Select</Capability>
+ </Channel>
+ <Channel Name="Position X" Preset="PositionXAxis"/>
+ <Channel Name="Position Y" Preset="PositionYAxis"/>
+ <Channel Name="Scanner Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Slow to Fast</Capability>
+ </Channel>
+ <Channel Name="Pattern Speed">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="255">Slow to Fast</Capability>
+ </Channel>
+ <Channel Name="Pattern Size" Preset="BeamZoomSmallBig"/>
+ <Mode Name="Main">
+  <Channel Number="0">Mode</Channel>
+  <Channel Number="1">Pattern Select</Channel>
+  <Channel Number="2">Position X</Channel>
+  <Channel Number="3">Position Y</Channel>
+  <Channel Number="4">Scanner Speed</Channel>
+  <Channel Number="5" ActsOn="1">Pattern Speed</Channel>
+  <Channel Number="6" ActsOn="1">Pattern Size</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
