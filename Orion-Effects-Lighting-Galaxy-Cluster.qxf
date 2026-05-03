@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.14.3</Version>
+  <Author>Kaiden Richardson</Author>
+ </Creator>
+ <Manufacturer>Orion Effects Lighting</Manufacturer>
+ <Model>Galaxy Cluster</Model>
+ <Type>Other</Type>
+ <Channel Name="X Axis Position" Preset="PositionXAxis"/>
+ <Channel Name="X Axis Speed" Preset="SpeedPanFastSlow"/>
+ <Channel Name="Bee Eye Motor">
+  <Group Byte="0">Pan</Group>
+  <Capability Min="0" Max="127">Rotate 0-180 degrees</Capability>
+  <Capability Min="128" Max="191" Preset="RotationClockwiseSlowToFast">Clock-wise rotation from Slow to Fast</Capability>
+  <Capability Min="192" Max="255" Preset="RotationCounterClockwiseSlowToFast">Counter-clockwise rotation from slow to fast</Capability>
+ </Channel>
+ <Channel Name="Light Beam Motor 1" Preset="PositionXAxis"/>
+ <Channel Name="Light Beam Motor 2" Preset="PositionXAxis"/>
+ <Channel Name="Light Beam Motor 3" Preset="PositionXAxis"/>
+ <Channel Name="Light Beam Motor 4" Preset="PositionXAxis"/>
+ <Channel Name="Total Dimming" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="9">Off</Capability>
+  <Capability Min="10" Max="255" Preset="SlowToFast">Strobe speed (slow to fast)</Capability>
+ </Channel>
+ <Channel Name="Light Beam - Red" Preset="IntensityRed"/>
+ <Channel Name="Light Beam - Green" Preset="IntensityGreen"/>
+ <Channel Name="Light Beam - Blue" Preset="IntensityBlue"/>
+ <Channel Name="Light Beam - White" Preset="IntensityWhite"/>
+ <Channel Name="Bee Eye - Red" Preset="IntensityRed"/>
+ <Channel Name="Bee Eye - Green" Preset="IntensityGreen"/>
+ <Channel Name="Bee Eye -Blue" Preset="IntensityBlue"/>
+ <Channel Name="Bee Eye - White" Preset="IntensityWhite"/>
+ <Channel Name="Wash - Red" Preset="IntensityRed"/>
+ <Channel Name="Wash - Green" Preset="IntensityGreen"/>
+ <Channel Name="Wash - Blue" Preset="IntensityBlue"/>
+ <Channel Name="Wash - White" Preset="IntensityWhite"/>
+ <Channel Name="Laser - Red" Preset="IntensityDimmer"/>
+ <Channel Name="Laser - Green" Preset="IntensityDimmer"/>
+ <Channel Name="Flash - Yellow">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Yellow</Colour>
+  <Capability Min="0" Max="9">Off</Capability>
+  <Capability Min="10" Max="255" Preset="SlowToFast">Flash Speed (Slow to Fast)</Capability>
+ </Channel>
+ <Channel Name="Ring Light - Macro Function">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="12">No Function</Capability>
+  <Capability Min="13" Max="21" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+  <Capability Min="22" Max="30" Preset="ColorMacro" Res1="#00ff00">Green</Capability>
+  <Capability Min="31" Max="39" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
+  <Capability Min="40" Max="48" Preset="ColorMacro" Res1="#ffff00">Yellow</Capability>
+  <Capability Min="49" Max="57" Preset="ColorMacro" Res1="#aa00ff">Purple</Capability>
+  <Capability Min="58" Max="66" Preset="ColorMacro" Res1="#00f7f7">Cyan</Capability>
+  <Capability Min="67" Max="75" Preset="ColorMacro" Res1="#ffffff">White</Capability>
+  <Capability Min="76" Max="255">Colour cycling patterns (31 variations)</Capability>
+ </Channel>
+ <Channel Name="Ring Light - Macro Function Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255" Preset="RampUpSlowToFast">Speed (Slow to fast)</Capability>
+ </Channel>
+ <Channel Name="Ring Light - Macro Function Control">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="50">No Function</Capability>
+  <Capability Min="51" Max="150">Light cycles through patterns automatically</Capability>
+  <Capability Min="151" Max="250">Light cycles through patterns using sound active</Capability>
+  <Capability Min="251" Max="255" Preset="ResetAll">Reset lights and motors (3 seconds)</Capability>
+ </Channel>
+ <Mode Name="Default">
+  <Channel Number="0">X Axis Position</Channel>
+  <Channel Number="1">X Axis Speed</Channel>
+  <Channel Number="2">Bee Eye Motor</Channel>
+  <Channel Number="3">Light Beam Motor 1</Channel>
+  <Channel Number="4">Light Beam Motor 2</Channel>
+  <Channel Number="5">Light Beam Motor 3</Channel>
+  <Channel Number="6">Light Beam Motor 4</Channel>
+  <Channel Number="7">Total Dimming</Channel>
+  <Channel Number="8">Strobe</Channel>
+  <Channel Number="9">Light Beam - Red</Channel>
+  <Channel Number="10">Light Beam - Green</Channel>
+  <Channel Number="11">Light Beam - Blue</Channel>
+  <Channel Number="12">Light Beam - White</Channel>
+  <Channel Number="13">Bee Eye - Red</Channel>
+  <Channel Number="14">Bee Eye - Green</Channel>
+  <Channel Number="15">Bee Eye -Blue</Channel>
+  <Channel Number="16">Bee Eye - White</Channel>
+  <Channel Number="17">Wash - Red</Channel>
+  <Channel Number="18">Wash - Green</Channel>
+  <Channel Number="19">Wash - Blue</Channel>
+  <Channel Number="20">Wash - White</Channel>
+  <Channel Number="21">Laser - Red</Channel>
+  <Channel Number="22">Laser - Green</Channel>
+  <Channel Number="23">Flash - Yellow</Channel>
+  <Channel Number="24">Ring Light - Macro Function</Channel>
+  <Channel Number="25">Ring Light - Macro Function Speed</Channel>
+  <Channel Number="26">Ring Light - Macro Function Control</Channel>
+  <Head>
+   <Channel>2</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+   <Channel>16</Channel>
+  </Head>
+  <Head>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+  </Head>
+  <Head>
+   <Channel>17</Channel>
+   <Channel>18</Channel>
+   <Channel>19</Channel>
+   <Channel>20</Channel>
+  </Head>
+  <Head>
+   <Channel>24</Channel>
+   <Channel>25</Channel>
+   <Channel>26</Channel>
+  </Head>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="5" Width="330" Height="330" Depth="178"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Layout Width="5" Height="5"/>
+  <Technical PowerConsumption="100" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
