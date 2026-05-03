@@ -9,7 +9,7 @@
  <Manufacturer>Orion Effects Lighting</Manufacturer>
  <Model>Polaris 2</Model>
  <Type>Effect</Type>
- <Channel Name="Control mode">
+ <Channel Name="Control Mode">
   <Group Byte="0">Maintenance</Group>
   <Capability Min="0" Max="9">Black-out</Capability>
   <Capability Min="10" Max="39">Auto-play 1 (6 color LED)</Capability>
@@ -22,7 +22,7 @@
   <Capability Min="220" Max="249">Sound control 4 (Mixing)</Capability>
   <Capability Min="250" Max="255">DMX control</Capability>
  </Channel>
- <Channel Name="RGBWAV control">
+ <Channel Name="RGBWAV Control">
   <Group Byte="0">Effect</Group>
   <Capability Min="0" Max="9">Blackout</Capability>
   <Capability Min="10" Max="12" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
@@ -30,7 +30,7 @@
   <Capability Min="16" Max="18" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
   <Capability Min="19" Max="21" Preset="ColorMacro" Res1="#ffffff">White</Capability>
   <Capability Min="22" Max="24" Preset="ColorMacro" Res1="#ff7800">Amber</Capability>
-  <Capability Min="25" Max="27" Preset="ColorMacro" Res1="#9141ac">Violet</Capability>
+  <Capability Min="25" Max="27" Preset="ColorMacro" Res1="#ee82ee">Violet</Capability>
   <Capability Min="28" Max="30" Preset="ColorDoubleMacro" Res1="#ff0000" Res2="#00ff00">Red+Green</Capability>
   <Capability Min="31" Max="33" Preset="ColorDoubleMacro" Res1="#ff0000" Res2="#0000ff">Red+Blue</Capability>
   <Capability Min="34" Max="36" Preset="ColorDoubleMacro" Res1="#ff0000" Res2="#ffffff">Red+White</Capability>
@@ -91,7 +91,7 @@
   <Capability Min="199" Max="225">Color chase 1 (single color)</Capability>
   <Capability Min="226" Max="255">Color chase 2 (single or multiple)</Capability>
  </Channel>
- <Channel Name="Auto-play LED color chase speed">
+ <Channel Name="Auto-Play LED Color Chase Speed">
   <Group Byte="0">Speed</Group>
   <Capability Min="0" Max="255">Speed from slow to fast</Capability>
  </Channel>
@@ -101,8 +101,8 @@
   <Capability Min="10" Max="244">Strobe speed slow to fast</Capability>
   <Capability Min="245" Max="255">Strobe by sound</Capability>
  </Channel>
- <Channel Name="White Strobe LED control">
-  <Group Byte="0">Effect</Group>
+ <Channel Name="White Strobe LED">
+  <Group Byte="0">Shutter</Group>
   <Capability Min="0" Max="9">Blackout</Capability>
   <Capability Min="10" Max="14" Preset="GenericPicture" Res1="@SHOW_ROOT@\polaris2\1.png">1</Capability>
   <Capability Min="15" Max="19" Preset="GenericPicture" Res1="@SHOW_ROOT@\polaris2\2.png">2</Capability>
@@ -131,12 +131,12 @@
   <Capability Min="130" Max="134" Preset="GenericPicture" Res1="@SHOW_ROOT@\polaris2\1+2+3+4+5+6+7+8.png">1+2+3+4+5+6+7+8</Capability>
   <Capability Min="135" Max="255">Chase effect</Capability>
  </Channel>
- <Channel Name="White LED chase speed + strobe">
+ <Channel Name="White LED Strobe and Chase Speed">
   <Group Byte="0">Speed</Group>
   <Capability Min="0" Max="127">Chase speed slow to fast with no strobe</Capability>
   <Capability Min="128" Max="255">Chase speed slow to fast with strobe</Capability>
  </Channel>
- <Channel Name="Laser control">
+ <Channel Name="Laser Control">
   <Group Byte="0">Colour</Group>
   <Capability Min="0" Max="9">Laser off</Capability>
   <Capability Min="10" Max="49">Red</Capability>
@@ -147,19 +147,19 @@
   <Capability Min="210" Max="249">Red, green synchronous flicker</Capability>
   <Capability Min="250" Max="255">Red, green alternative flicker</Capability>
  </Channel>
- <Channel Name="Laser strobe control">
+ <Channel Name="Laser Strobe Control">
   <Group Byte="0">Shutter</Group>
   <Capability Min="0" Max="9">Strobe off</Capability>
   <Capability Min="10" Max="244" Preset="StrobeSlowToFast">Strobe speed slow to fast</Capability>
   <Capability Min="245" Max="255">Strobe by sound</Capability>
  </Channel>
- <Channel Name="Motor control">
+ <Channel Name="Motor Control">
   <Group Byte="0">Speed</Group>
   <Capability Min="0" Max="8">Motor off</Capability>
   <Capability Min="9" Max="127" Preset="RotationClockwiseSlowToFast">Motor CW from slow to fast</Capability>
   <Capability Min="128" Max="255" Preset="RotationCounterClockwiseSlowToFast">Motor CCW from slow to fast</Capability>
  </Channel>
- <Channel Name="Laser pattern control">
+ <Channel Name="Laser Step Motor Control">
   <Group Byte="0">Gobo</Group>
   <Capability Min="0" Max="15" Preset="GoboMacro" Res1="@SHOW_ROOT@\polaris2\laser1.png">Pattern 1</Capability>
   <Capability Min="16" Max="31" Preset="GoboMacro" Res1="@SHOW_ROOT@\polaris2\laser2.png">Pattern 2</Capability>
@@ -172,16 +172,16 @@
   <Capability Min="128" Max="255">Pattern chase from slow to fast</Capability>
  </Channel>
  <Mode Name="10ch">
-  <Channel Number="0">Control mode</Channel>
-  <Channel Number="1">RGBWAV control</Channel>
-  <Channel Number="2" ActsOn="1">Auto-play LED color chase speed</Channel>
+  <Channel Number="0">Control Mode</Channel>
+  <Channel Number="1">RGBWAV Control</Channel>
+  <Channel Number="2" ActsOn="1">Auto-Play LED Color Chase Speed</Channel>
   <Channel Number="3" ActsOn="1">LED Strobe</Channel>
-  <Channel Number="4">White Strobe LED control</Channel>
-  <Channel Number="5" ActsOn="4">White LED chase speed + strobe</Channel>
-  <Channel Number="6">Laser control</Channel>
-  <Channel Number="7" ActsOn="6">Laser strobe control</Channel>
-  <Channel Number="8" ActsOn="6">Motor control</Channel>
-  <Channel Number="9">Laser pattern control</Channel>
+  <Channel Number="4">White Strobe LED</Channel>
+  <Channel Number="5" ActsOn="4">White LED Strobe and Chase Speed</Channel>
+  <Channel Number="6">Laser Control</Channel>
+  <Channel Number="7" ActsOn="6">Laser Strobe Control</Channel>
+  <Channel Number="8" ActsOn="6">Motor Control</Channel>
+  <Channel Number="9">Laser Step Motor Control</Channel>
   <Head>
    <Channel>1</Channel>
    <Channel>2</Channel>
@@ -199,11 +199,10 @@
   </Head>
  </Mode>
  <Physical>
-  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
-  <Dimensions Weight="0" Width="304" Height="313" Depth="230"/>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="12" Width="304" Height="313" Depth="230"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
-  <Layout Width="2" Height="2"/>
   <Technical PowerConsumption="80" DmxConnector="3-pin"/>
  </Physical>
 </FixtureDefinition>
