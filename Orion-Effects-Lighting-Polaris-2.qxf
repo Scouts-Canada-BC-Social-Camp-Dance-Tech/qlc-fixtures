@@ -3,7 +3,7 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.14.3</Version>
+  <Version>5.2.1</Version>
   <Author>Robbie Munro</Author>
  </Creator>
  <Manufacturer>Orion Effects Lighting</Manufacturer>
@@ -172,16 +172,16 @@
   <Capability Min="128" Max="255">Pattern chase from slow to fast</Capability>
  </Channel>
  <Mode Name="10ch">
-  <Channel Number="0">Control Mode</Channel>
-  <Channel Number="1">RGBWAV Control</Channel>
-  <Channel Number="2" ActsOn="1">Auto-Play LED Color Chase Speed</Channel>
-  <Channel Number="3" ActsOn="1">LED Strobe</Channel>
-  <Channel Number="4">White Strobe LED</Channel>
-  <Channel Number="5" ActsOn="4">White LED Strobe and Chase Speed</Channel>
-  <Channel Number="6">Laser Control</Channel>
-  <Channel Number="7" ActsOn="6">Laser Strobe Control</Channel>
-  <Channel Number="8" ActsOn="6">Motor Control</Channel>
-  <Channel Number="9">Laser Step Motor Control</Channel>
+  <Channel Number="0">Control mode</Channel>
+  <Channel Number="1">RGBWAV control</Channel>
+  <Channel Number="2">Auto-play LED color chase speed</Channel>
+  <Channel Number="3">LED Strobe</Channel>
+  <Channel Number="4">White Strobe LED control</Channel>
+  <Channel Number="5">White LED chase speed + strobe</Channel>
+  <Channel Number="6">Laser control</Channel>
+  <Channel Number="7">Laser strobe control</Channel>
+  <Channel Number="8">Motor control</Channel>
+  <Channel Number="9">Laser pattern control</Channel>
   <Head>
    <Channel>1</Channel>
    <Channel>2</Channel>

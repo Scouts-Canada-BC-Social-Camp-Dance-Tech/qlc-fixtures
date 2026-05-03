@@ -3,7 +3,7 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.14.3</Version>
+  <Version>5.2.1</Version>
   <Author>Robbie Munro</Author>
  </Creator>
  <Manufacturer>Yorkville Sound</Manufacturer>
@@ -13,29 +13,79 @@
  <Channel Name="Green for Pod 1" Preset="IntensityGreen"/>
  <Channel Name="Blue for Pod 1" Preset="IntensityBlue"/>
  <Channel Name="White for Pod 1" Preset="IntensityWhite"/>
- <Channel Name="Intensity for Pod 1">
-  <Group Byte="0">Intensity</Group>
- </Channel>
+ <Channel Name="Intensity for Pod 1" Preset="IntensityDimmer"/>
  <Channel Name="Red for Pod 2" Preset="IntensityRed"/>
  <Channel Name="Green for Pod 2" Preset="IntensityGreen"/>
  <Channel Name="Blue for Pod 2" Preset="IntensityBlue"/>
  <Channel Name="White for Pod 2" Preset="IntensityWhite"/>
- <Channel Name="Intensity for Pod 2">
-  <Group Byte="0">Intensity</Group>
- </Channel>
+ <Channel Name="Intensity for Pod 2" Preset="IntensityDimmer"/>
  <Channel Name="Red for Pod 3" Preset="IntensityRed"/>
  <Channel Name="Green for Pod 3" Preset="IntensityGreen"/>
  <Channel Name="Blue for Pod 3" Preset="IntensityBlue"/>
  <Channel Name="White for Pod 3" Preset="IntensityWhite"/>
- <Channel Name="Intensity for Pod 3">
-  <Group Byte="0">Intensity</Group>
- </Channel>
+ <Channel Name="Intensity for Pod 3" Preset="IntensityDimmer"/>
  <Channel Name="Red for Pod 4" Preset="IntensityRed"/>
  <Channel Name="Green for Pod 4" Preset="IntensityGreen"/>
  <Channel Name="Blue for Pod 4" Preset="IntensityBlue"/>
  <Channel Name="White for Pod 4" Preset="IntensityWhite"/>
- <Channel Name="Intensity for Pod 4">
-  <Group Byte="0">Intensity</Group>
+ <Channel Name="Intensity for Pod 4" Preset="IntensityDimmer"/>
+ <Channel Name="Strobe Speed for Pod 1" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Strobe Speed for Pod 2" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Strobe Speed for Pod 3" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Strobe Speed for Pod 4" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Strobe Intensity for Pod 1" Preset="ShutterIrisMinToMax"/>
+ <Channel Name="Strobe Intensity for Pod 2" Preset="ShutterIrisMinToMax"/>
+ <Channel Name="Strobe Intensity for Pod 3" Preset="ShutterIrisMinToMax"/>
+ <Channel Name="Strobe Intensity for Pod 4" Preset="ShutterIrisMinToMax"/>
+ <Channel Name="Sync - Master (Pod 1)">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="1">Probably don't sync?</Capability>
+  <Capability Min="2" Max="255">Probably sync?</Capability>
+ </Channel>
+ <Channel Name="Sync to Master Ch. 8 (Pod 2)">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="1">Don't sync?</Capability>
+  <Capability Min="2" Max="255">Sync?</Capability>
+ </Channel>
+ <Channel Name="Sync to Master Ch. 8 (Pod 3)">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="1">Don't sync?</Capability>
+  <Capability Min="2" Max="255">Sync?</Capability>
+ </Channel>
+ <Channel Name="Sync to Master Ch. 8 (Pod 4)">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="1">Don't sync?</Capability>
+  <Capability Min="2" Max="255">Sync?</Capability>
+ </Channel>
+ <Channel Name="Colour for Pod 1" Preset="ColorRGBMixer"/>
+ <Channel Name="Colour for Pod 2" Preset="ColorRGBMixer"/>
+ <Channel Name="Colour for Pod 3" Preset="ColorRGBMixer"/>
+ <Channel Name="Colour for Pod 4" Preset="ColorRGBMixer"/>
+ <Channel Name="Chase effect">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255" Preset="SlowToFast">Slow to fast?</Capability>
+ </Channel>
+ <Channel Name="Colour Fade effect">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255" Preset="SlowToFast">Slow to fast?</Capability>
+ </Channel>
+ <Channel Name="Mixed Colour Fade effect">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255" Preset="SlowToFast">Slow to fast?</Capability>
+ </Channel>
+ <Channel Name="Audio Modulated Sound Active 1">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">I have no idea</Capability>
+ </Channel>
+ <Channel Name="Flash All Sound Active" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Flash Pairs Sound Active" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Audio Chase Sound Active">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">I have no idea</Capability>
+ </Channel>
+ <Channel Name="Audio Modulated Sound Active 2">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">I have no idea</Capability>
  </Channel>
  <Mode Name="20ch">
   <Channel Number="0">Red for Pod 1</Channel>
@@ -105,9 +155,143 @@
    <Channel>3</Channel>
   </Head>
  </Mode>
+ <Mode Name="32ch">
+  <Channel Number="0">Red for Pod 1</Channel>
+  <Channel Number="1">Green for Pod 1</Channel>
+  <Channel Number="2">Blue for Pod 1</Channel>
+  <Channel Number="3">White for Pod 1</Channel>
+  <Channel Number="4">Intensity for Pod 1</Channel>
+  <Channel Number="5">Strobe Speed for Pod 1</Channel>
+  <Channel Number="6">Strobe Intensity for Pod 1</Channel>
+  <Channel Number="7">Sync - Master (Pod 1)</Channel>
+  <Channel Number="8">Red for Pod 2</Channel>
+  <Channel Number="9">Green for Pod 2</Channel>
+  <Channel Number="10">Blue for Pod 2</Channel>
+  <Channel Number="11">White for Pod 2</Channel>
+  <Channel Number="12">Intensity for Pod 2</Channel>
+  <Channel Number="13">Strobe Speed for Pod 2</Channel>
+  <Channel Number="14">Strobe Intensity for Pod 2</Channel>
+  <Channel Number="15">Sync to Master Ch. 8 (Pod 2)</Channel>
+  <Channel Number="16">Red for Pod 3</Channel>
+  <Channel Number="17">Green for Pod 3</Channel>
+  <Channel Number="18">Blue for Pod 3</Channel>
+  <Channel Number="19">White for Pod 3</Channel>
+  <Channel Number="20">Intensity for Pod 3</Channel>
+  <Channel Number="21">Strobe Speed for Pod 3</Channel>
+  <Channel Number="22">Strobe Intensity for Pod 3</Channel>
+  <Channel Number="23">Sync to Master Ch. 8 (Pod 3)</Channel>
+  <Channel Number="24">Red for Pod 4</Channel>
+  <Channel Number="25">Green for Pod 4</Channel>
+  <Channel Number="26">Blue for Pod 4</Channel>
+  <Channel Number="27">White for Pod 4</Channel>
+  <Channel Number="28">Intensity for Pod 4</Channel>
+  <Channel Number="29">Strobe Speed for Pod 4</Channel>
+  <Channel Number="30">Strobe Intensity for Pod 4</Channel>
+  <Channel Number="31">Sync to Master Ch. 8 (Pod 4)</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+  </Head>
+  <Head>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+  </Head>
+  <Head>
+   <Channel>16</Channel>
+   <Channel>17</Channel>
+   <Channel>18</Channel>
+   <Channel>19</Channel>
+   <Channel>20</Channel>
+   <Channel>21</Channel>
+   <Channel>22</Channel>
+   <Channel>23</Channel>
+  </Head>
+  <Head>
+   <Channel>24</Channel>
+   <Channel>25</Channel>
+   <Channel>26</Channel>
+   <Channel>27</Channel>
+   <Channel>28</Channel>
+   <Channel>29</Channel>
+   <Channel>30</Channel>
+   <Channel>31</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="16ch">
+  <Channel Number="0">Chase effect</Channel>
+  <Channel Number="1">Colour Fade effect</Channel>
+  <Channel Number="2">Mixed Colour Fade effect</Channel>
+  <Channel Number="3">Audio Modulated Sound Active 1</Channel>
+  <Channel Number="4">Flash All Sound Active</Channel>
+  <Channel Number="5">Flash Pairs Sound Active</Channel>
+  <Channel Number="6">Audio Chase Sound Active</Channel>
+  <Channel Number="7">Audio Modulated Sound Active 2</Channel>
+  <Channel Number="8">Intensity for Pod 1</Channel>
+  <Channel Number="9">Colour for Pod 1</Channel>
+  <Channel Number="10">Intensity for Pod 2</Channel>
+  <Channel Number="11">Colour for Pod 2</Channel>
+  <Channel Number="12">Intensity for Pod 3</Channel>
+  <Channel Number="13">Colour for Pod 3</Channel>
+  <Channel Number="14">Intensity for Pod 4</Channel>
+  <Channel Number="15">Colour for Pod 4</Channel>
+  <Head>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+  </Head>
+  <Head>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+  </Head>
+  <Head>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+  </Head>
+  <Head>
+   <Channel>14</Channel>
+   <Channel>15</Channel>
+  </Head>
+ </Mode>
+ <Mode Name="8ch">
+  <Channel Number="0">Intensity for Pod 1</Channel>
+  <Channel Number="1">Colour for Pod 1</Channel>
+  <Channel Number="2">Intensity for Pod 2</Channel>
+  <Channel Number="3">Colour for Pod 2</Channel>
+  <Channel Number="4">Intensity for Pod 3</Channel>
+  <Channel Number="5">Colour for Pod 3</Channel>
+  <Channel Number="6">Intensity for Pod 4</Channel>
+  <Channel Number="7">Colour for Pod 4</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+  </Head>
+  <Head>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+  </Head>
+  <Head>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+  </Head>
+  <Head>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+  </Head>
+ </Mode>
  <Physical>
   <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
-  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Dimensions Weight="6.6" Width="788" Height="200" Depth="122"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
   <Layout Width="4" Height="1"/>

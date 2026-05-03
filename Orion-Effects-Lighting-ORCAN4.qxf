@@ -3,7 +3,7 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.14.3</Version>
+  <Version>5.2.1</Version>
   <Author>Robbie</Author>
  </Creator>
  <Manufacturer>Orion Effects Lighting</Manufacturer>
@@ -36,6 +36,14 @@
   <Channel Number="3">White</Channel>
   <Channel Number="4">Amber</Channel>
   <Channel Number="5">UV</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+  </Head>
  </Mode>
  <Mode Name="10ch">
   <Channel Number="0">Master dimmer</Channel>
@@ -48,12 +56,24 @@
   <Channel Number="7">White</Channel>
   <Channel Number="8">Amber</Channel>
   <Channel Number="9">UV</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+  </Head>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
-  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  <Technical PowerConsumption="0" DmxConnector="3-pin"/>
  </Physical>
 </FixtureDefinition>
