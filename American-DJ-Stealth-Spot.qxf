@@ -95,14 +95,14 @@
   <Capability Min="192" Max="255" Preset="SlowToFast">Counter Clockwise Rotation (Slow to Fast)</Capability>
  </Channel>
  <Channel Name="Pan/Tilt Speed" Preset="SpeedPanTiltFastSlow"/>
- <Mode Name="5 Channel Mode">
+ <Mode Name="5 Channel">
   <Channel Number="0">Pan</Channel>
   <Channel Number="1">Tilt</Channel>
   <Channel Number="2">Programs</Channel>
   <Channel Number="3">Pan/Tilt Programs</Channel>
   <Channel Number="4">Pan/Tilt Program Speed</Channel>
  </Mode>
- <Mode Name="15 Channel Mode">
+ <Mode Name="15 Channel">
   <Channel Number="0">Pan</Channel>
   <Channel Number="1" ActsOn="0">Pan fine</Channel>
   <Channel Number="2">Tilt</Channel>
@@ -118,6 +118,23 @@
   <Channel Number="12" ActsOn="0">Pan/Tilt Programs</Channel>
   <Channel Number="13" ActsOn="0">Pan/Tilt Speed</Channel>
   <Channel Number="14" ActsOn="12">Pan/Tilt Program Speed</Channel>
+  <Head>
+   <Channel>0</Channel>
+   <Channel>1</Channel>
+   <Channel>2</Channel>
+   <Channel>3</Channel>
+   <Channel>4</Channel>
+   <Channel>5</Channel>
+   <Channel>6</Channel>
+   <Channel>7</Channel>
+   <Channel>8</Channel>
+   <Channel>9</Channel>
+   <Channel>10</Channel>
+   <Channel>11</Channel>
+   <Channel>12</Channel>
+   <Channel>13</Channel>
+   <Channel>14</Channel>
+  </Head>
  </Mode>
  <Physical>
   <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
