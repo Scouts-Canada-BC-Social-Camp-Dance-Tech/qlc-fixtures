@@ -9,19 +9,19 @@
  <Manufacturer>Orion Effects Lighting</Manufacturer>
  <Model>ORCAN4</Model>
  <Type>Color Changer</Type>
- <Channel Name="Master dimmer" Preset="IntensityMasterDimmer"/>
- <Channel Name="Strobe" Preset="ShutterStrobeSlowFast"/>
+ <Channel Name="Master Dimming" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Master Strobe" Preset="ShutterStrobeSlowFast"/>
  <Channel Name="Effect Select">
   <Group Byte="0">Effect</Group>
-  <Capability Min="0" Max="5">Single colour (manual)</Capability>
-  <Capability Min="6" Max="99">Colour step changing</Capability>
+  <Capability Min="0" Max="5">Single color (manual)</Capability>
+  <Capability Min="6" Max="99">Color step changing</Capability>
   <Capability Min="100" Max="150">Color fading</Capability>
-  <Capability Min="151" Max="200">Colour pulsing</Capability>
+  <Capability Min="151" Max="200">Color pulsing</Capability>
   <Capability Min="201" Max="255">Audio chase</Capability>
  </Channel>
- <Channel Name="Effect Speed">
+ <Channel Name="Speed Control">
   <Group Byte="0">Speed</Group>
-  <Capability Min="0" Max="255" Preset="SlowToFast">Effect speed slow to fast</Capability>
+  <Capability Min="0" Max="255" Preset="SlowToFast">Effects speed control, from slow to fast</Capability>
  </Channel>
  <Channel Name="Red" Preset="IntensityRed"/>
  <Channel Name="Green" Preset="IntensityGreen"/>
@@ -38,10 +38,10 @@
   <Channel Number="5">UV</Channel>
  </Mode>
  <Mode Name="10ch">
-  <Channel Number="0">Master dimmer</Channel>
-  <Channel Number="1">Strobe</Channel>
+  <Channel Number="0">Master Dimming</Channel>
+  <Channel Number="1">Master Strobe</Channel>
   <Channel Number="2">Effect Select</Channel>
-  <Channel Number="3">Effect Speed</Channel>
+  <Channel Number="3" ActsOn="2">Speed Control</Channel>
   <Channel Number="4">Red</Channel>
   <Channel Number="5">Green</Channel>
   <Channel Number="6">Blue</Channel>
