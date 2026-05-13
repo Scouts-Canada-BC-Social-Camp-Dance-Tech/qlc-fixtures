@@ -93,7 +93,7 @@
  </Channel>
  <Channel Name="Auto-Play LED Color Chase Speed">
   <Group Byte="0">Speed</Group>
-  <Capability Min="0" Max="255">Speed from slow to fast</Capability>
+  <Capability Min="0" Max="255" Preset="SlowToFast">Speed from slow to fast</Capability>
  </Channel>
  <Channel Name="LED Strobe">
   <Group Byte="0">Shutter</Group>
@@ -171,24 +171,24 @@
   <Capability Min="112" Max="127" Preset="GoboMacro" Res1="@SHOW_ROOT@\polaris2\laser8.png">Pattern 8</Capability>
   <Capability Min="128" Max="255">Pattern chase from slow to fast</Capability>
  </Channel>
- <Mode Name="10ch">
-  <Channel Number="0">Control mode</Channel>
-  <Channel Number="1">RGBWAV control</Channel>
-  <Channel Number="2">Auto-play LED color chase speed</Channel>
+ <Mode Name="10 Channel">
+  <Channel Number="0">Control Mode</Channel>
+  <Channel Number="1">RGBWAV Control</Channel>
+  <Channel Number="2">Auto-Play LED Color Chase Speed</Channel>
   <Channel Number="3">LED Strobe</Channel>
-  <Channel Number="4">White Strobe LED control</Channel>
-  <Channel Number="5">White LED chase speed + strobe</Channel>
-  <Channel Number="6">Laser control</Channel>
-  <Channel Number="7">Laser strobe control</Channel>
-  <Channel Number="8">Motor control</Channel>
-  <Channel Number="9">Laser pattern control</Channel>
+  <Channel Number="4">White Strobe LED</Channel>
+  <Channel Number="5">White LED Strobe and Chase Speed</Channel>
+  <Channel Number="6">Laser Control</Channel>
+  <Channel Number="7">Laser Strobe Control</Channel>
+  <Channel Number="8">Motor Control</Channel>
+  <Channel Number="9">Laser Step Motor Control</Channel>
   <Head>
    <Channel>1</Channel>
    <Channel>2</Channel>
-   <Channel>3</Channel>
    <Channel>8</Channel>
   </Head>
   <Head>
+   <Channel>3</Channel>
    <Channel>4</Channel>
    <Channel>5</Channel>
   </Head>
@@ -200,9 +200,10 @@
  </Mode>
  <Physical>
   <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
-  <Dimensions Weight="12" Width="304" Height="313" Depth="230"/>
+  <Dimensions Weight="12" Width="304" Height="313" Depth="231"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
-  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
-  <Technical PowerConsumption="80" DmxConnector="3-pin"/>
+  <Focus Type="Mirror" PanMax="0" TiltMax="0"/>
+  <Layout Width="2" Height="2"/>
+  <Technical PowerConsumption="77" DmxConnector="5-pin"/>
  </Physical>
 </FixtureDefinition>
